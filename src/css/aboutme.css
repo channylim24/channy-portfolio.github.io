@@ -1,0 +1,182 @@
+.aboutMe {
+  height: fit-content;
+  background-color: #cebea5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  font-size: 24px;
+  position: relative;
+  z-index: -10;
+  padding: 0 0 6rem;
+}
+
+.aboutMe::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, transparent, #463d3d);
+  z-index: -8;
+}
+
+.aboutMe::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+}
+
+.aboutMe h3 {
+  font-size: 50px;
+  text-align: center;
+  z-index: 10;
+  letter-spacing: 15px;
+  color: white;
+}
+
+.aboutMeContainer {
+  margin-top: 3rem;
+  width: 70%;
+  z-index: 10;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+}
+
+.itemContainer {
+  height: 100%;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.imageContainer {
+  background-color: #ffffff6c;
+  box-shadow: 0 4px 4px 0 #eb988c;
+  height: 26.5rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 5rem;
+}
+
+#myPicture {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
+
+pre {
+  font-size: 35px;
+}
+
+.skills,
+.imageContainer {
+  display: inline-block;
+}
+
+.skills {
+  margin: 10rem 0 0;
+  width: 100%;
+  border-radius: 0 0 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill {
+  margin: 0 0 1rem;
+  padding: 1rem 0 1rem 1rem;
+  width: 85%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  background-color: #eb988c;
+  font-size: 35px;
+  position: relative;
+  border-radius: 0.5rem;
+  align-self: center;
+  justify-self: center;
+}
+
+.skill:last-child {
+  margin-bottom: 3rem;
+}
+
+.skill::before {
+  content: "";
+  padding: 1rem 0 1rem 1rem;
+  height: 2.5rem;
+  width: 0;
+  line-height: 2.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: inherit;
+  z-index: 20;
+}
+
+.html::before {
+  content: "HTML";
+  background-color: #eabfb9;
+  width: calc(90% - 2rem);
+  z-index: 50;
+}
+
+.css::before {
+  content: "CSS";
+  background-color: #eabfb9;
+  width: calc(85% - 2rem);
+  z-index: 50;
+}
+
+.js::before {
+  content: "JavaScript && ES6";
+  background-color: #eabfb9;
+  width: calc(80% - 2rem);
+  z-index: 50;
+}
+
+.reactjs::before {
+  content: "ReactJS";
+  background-color: #eabfb9;
+  width: calc(75% - 2rem);
+  z-index: 50;
+}
+
+.git::before {
+  content: "Git";
+  background-color: #eabfb9;
+  width: calc(85% - 2rem);
+  z-index: 50;
+}
+
+#pinkcloud {
+  position: absolute;
+  opacity: 0.5;
+  filter: blur(5px);
+  left: 10rem;
+  top: -5rem;
+  /* width: 25rem; */
+}
+
+#moon {
+  position: absolute;
+  right: 10rem;
+  top: -5rem;
+  opacity: 0.5;
+  filter: blur(8px);
+  width: 25rem;
+}
