@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/channy-portfolio.github.io/static/css/main.93aa80f4.chunk.css",
+    "main.js": "/channy-portfolio.github.io/static/js/main.54141322.chunk.js",
+    "main.js.map": "/channy-portfolio.github.io/static/js/main.54141322.chunk.js.map",
+    "runtime-main.js": "/channy-portfolio.github.io/static/js/runtime-main.4d200313.js",
+    "runtime-main.js.map": "/channy-portfolio.github.io/static/js/runtime-main.4d200313.js.map",
+    "static/js/2.d25487a2.chunk.js": "/channy-portfolio.github.io/static/js/2.d25487a2.chunk.js",
+    "static/js/2.d25487a2.chunk.js.map": "/channy-portfolio.github.io/static/js/2.d25487a2.chunk.js.map",
+    "index.html": "/channy-portfolio.github.io/index.html",
+    "static/css/main.93aa80f4.chunk.css.map": "/channy-portfolio.github.io/static/css/main.93aa80f4.chunk.css.map",
+    "static/js/2.d25487a2.chunk.js.LICENSE.txt": "/channy-portfolio.github.io/static/js/2.d25487a2.chunk.js.LICENSE.txt",
+    "static/media/home.css": "/channy-portfolio.github.io/static/media/background-home-sakura.7a56e2dd.png",
+    "static/media/background-moon.b5c6afd5.png": "/channy-portfolio.github.io/static/media/background-moon.b5c6afd5.png",
+    "static/media/background-pinkcloud.c8328d3c.png": "/channy-portfolio.github.io/static/media/background-pinkcloud.c8328d3c.png",
+    "static/media/projects.css": "/channy-portfolio.github.io/static/media/background-pinkmountain2.384395f7.png",
+    "static/media/contactme.css": "/channy-portfolio.github.io/static/media/background-undersea.e32ace33.png",
+    "static/media/channy-aboutMe.5d6afb68.png": "/channy-portfolio.github.io/static/media/channy-aboutMe.5d6afb68.png",
+    "static/media/App.css": "/channy-portfolio.github.io/static/media/mexcellent3d.de80edcb.otf",
+    "static/media/projectButton.52c489d3.PNG": "/channy-portfolio.github.io/static/media/projectButton.52c489d3.PNG",
+    "static/media/signUpPage.361a48e4.PNG": "/channy-portfolio.github.io/static/media/signUpPage.361a48e4.PNG",
+    "static/media/toDoList.e9a2de2b.PNG": "/channy-portfolio.github.io/static/media/toDoList.e9a2de2b.PNG",
+    "static/media/wavesUponAShore.f0a685a4.mp3": "/channy-portfolio.github.io/static/media/wavesUponAShore.f0a685a4.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d200313.js",
+    "static/js/2.d25487a2.chunk.js",
+    "static/css/main.93aa80f4.chunk.css",
+    "static/js/main.54141322.chunk.js"
+  ]
+}
